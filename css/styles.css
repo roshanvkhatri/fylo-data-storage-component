@@ -165,3 +165,69 @@ a:hover {
     hsl(6, 100%, 80%)
   );
 }
+
+@media screen and (max-width: 980px) and (min-width: 749px) {
+    main{
+        width: 90%;
+    }
+
+    .components, .memory-status, .bar{
+        width: 100%;
+        font-size: 90%;
+    }
+    .fylo-logo{
+        margin-right: 100%;
+    }
+    h1 {
+        font-size: 90%
+    }
+    .popup{
+        width: 30%;
+        font-size: 90%
+    }
+}
+
+@media screen and (max-width: 750px) {
+  body {
+   background-image: url(/images/bg-mobile.svg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+  }
+
+  main{
+      flex-direction: column;
+      width: 80%;
+      margin-bottom: 0;
+  }
+
+  .components, .memory-status{
+      width: 90%;
+  }
+
+  .components{
+      margin-right: 0;
+      margin-bottom: 30px;
+  }
+  .fylo-logo{
+      margin-right: 100%;
+  }
+  .bar{
+      width: 100%;
+  }
+
+  .popup{
+      height: 40%;
+      width: 40%;
+      bottom: -25px;
+      right: unset;
+      top :unset;
+      left: 50%;
+      transform: translate(-50%);
+  }
+  .triangle{
+      display: none;
+  }
+
+}
+
