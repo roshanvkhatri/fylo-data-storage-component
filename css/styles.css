@@ -1,7 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   background-color: hsl(229, 57%, 11%);
-  background-image: url(images/bg-desktop.svg);
+  background-image: url(/images/bg-desktop.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 50%;
@@ -166,7 +166,7 @@ a:hover {
   );
 }
 
-@media screen and (max-width: 980px) and (min-width: 749px) {
+/* @media screen and (max-width: 980px) and (min-width: 749px) {
     main{
         width: 90%;
     }
@@ -230,4 +230,4 @@ a:hover {
   }
 
 }
-
+ */
