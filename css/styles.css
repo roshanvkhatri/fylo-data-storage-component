@@ -166,7 +166,7 @@ a:hover {
   );
 }
 
-/* @media screen and (max-width: 980px) and (min-width: 749px) {
+@media screen and (max-width: 980px) and (min-width: 749px) {
     main{
         width: 90%;
     }
@@ -230,4 +230,4 @@ a:hover {
   }
 
 }
- */
+
