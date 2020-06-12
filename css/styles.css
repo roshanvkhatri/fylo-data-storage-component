@@ -185,9 +185,12 @@ a:hover {
         width: 90%;
     }
 
-    .components, .memory-status, .bar{
+    .memory-status, .bar{
         width: 100%;
         font-size: 90%;
+    }
+    .components {
+      width: 75%;
     }
     .fylo-logo{
         margin-right: 100%;
